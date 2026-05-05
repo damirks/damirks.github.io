@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HeladoCarrot — Helado de Zanahoria</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="header" id="header">
+    <div class="header-inner">
+        <a href="#inicio" class="logo">
+            <span class="logo-icon">🥕</span>
+            <span class="logo-text">HeladoCarrot</span>
+        </a>
+
+        <input type="checkbox" id="menu-toggle" class="menu-toggle-input" />
+        <label for="menu-toggle" class="menu-btn" aria-label="Menú">
+            <span></span><span></span><span></span>
+        </label>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#producto">Producto</a></li>
+                <li><a href="#info">Información</a></li>
+                <li><a href="#creadores">Creadores</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section id="inicio" class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+        <p class="hero-tag">✦ Natural · Saludable · Artesanal ✦</p>
+        <h1 class="hero-title">Helado sabor<br><em>ITSSY</em></h1>  
+        <p class="hero-sub">"Una experiencia dulce que cuida tu cuerpo"</p>
+        <a href="#producto" class="btn-hero">Descubre más</a>
+    </div>
+    <div class="hero-scroll">
+        <span>Scroll</span>
+        <div class="scroll-line"></div>
+    </div>
+</section>
+
+<section id="producto" class="section-producto">
+    <div class="producto-inner">
+        <div class="producto-img-wrap">
+            <div class="img-badge">Artesanal</div>
+            <img src="images/helado.jpg" alt="Helado de zanahoria artesanal" class="producto-img">
+            <div class="img-deco"></div>
+        </div>
+        <div class="producto-texto">
+            <span class="section-label">— Nuestro Producto —</span>
+            <h2>Una receta<br><em>diferente</em></h2>
+            <p>
+                Creamos un helado de zanahoria que combina lo mejor de la naturaleza
+                con la cremosidad que mereces. Cada porción es una mezcla perfecta
+                de sabor auténtico y beneficios reales para tu salud.
+            </p>
+            <p>
+                Sin conservadores, sin artificiales. Solo ingredientes frescos
+                seleccionados con cuidado para ti.
+            </p>
+            <a href="#contacto" class="btn-outline">Pedir ahora</a>
+        </div>
+    </div>
+</section>
+
+<section id="info" class="section-info">
+    <div class="info-inner">
+        <span class="section-label light">— Beneficios —</span>
+        <h2>¿Por qué elegir<br><em>HeladoCarrot</em>?</h2>
+        <div class="beneficios-grid">
+            <div class="beneficio-card" data-delay="0">
+                <div class="beneficio-icon">🌿</div>
+                <h3>100% Natural</h3>
+                <p>Sin colorantes ni conservadores artificiales. Lo que ves es lo que comes.</p>
+            </div>
+            <div class="beneficio-card" data-delay="1">
+                <div class="beneficio-icon">✨</div>
+                <h3>Rico en Vitamina A</h3>
+                <p>La zanahoria aporta betacaroteno esencial para tu visión y piel.</p>
+            </div>
+            <div class="beneficio-card" data-delay="2">
+                <div class="beneficio-icon">💚</div>
+                <h3>Bajo en Grasa</h3>
+                <p>Disfruta sin culpa. Una opción ligera que no sacrifica el sabor.</p>
+            </div>
+            <div class="beneficio-card" data-delay="3">
+                <div class="beneficio-icon">🍃</div>
+                <h3>Antioxidantes</h3>
+                <p>Ingredientes que combaten el estrés oxidativo y te mantienen activo.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="creadores" class="section-creadores">
+    <div class="creadores-inner">
+        <span class="section-label">— El Equipo —</span>
+        <h2>Quiénes somos</h2>
+        <div class="creadores-grid">
+            <div class="creador-card">
+                <div class="creador-avatar">
+                    <img src="images/user1.jpeg" alt="Kevin Damir" onerror="this.style.display='none'; this.parentElement.classList.add('avatar-fallback')">
+                    <div class="avatar-initials">KD</div>
+                </div>
+                <h3>Canche Iuit</h3>
+                <p>Kevin Damir · Fundador</p>
+            </div>
+            <div class="creador-card">
+                <div class="creador-avatar">
+                    <img src="images/user2.jpg" alt="Compañero" onerror="this.style.display='none'; this.parentElement.classList.add('avatar-fallback')">
+                    <div class="avatar-initials">CO</div>
+                </div>
+                <h3>Compañeros del ITSSY</h3>
+                <p>Co-Fundador</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contacto" class="section-contacto">
+    <div class="contacto-inner">
+        <span class="section-label light">— Síguenos —</span>
+        <h2>Redes<br><em>Sociales</em></h2>
+        <p class="contacto-sub">Mantente al tanto de nuestras novedades y sabores especiales</p>
+        <div class="redes-grid">
+            <a href="https://www.facebook.com/share/1EU4nFbw9r/" class="red-btn facebook">
+                <span class="red-icon">f</span>
+                <span>Facebook</span>
+            </a>
+            <a href="#" class="red-btn instagram">
+                <span class="red-icon">◎</span>
+                <span>Instagram</span>
+            </a>
+            <a href="#" class="red-btn tiktok">
+                <span class="red-icon">♪</span>
+                <span>TikTok</span>
+            </a>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="footer-inner">
+        <a href="#inicio" class="logo footer-logo">
+            <span class="logo-icon">🥕</span>
+            <span class="logo-text">HeladoCarrot</span>
+        </a>
+        <p>© 2026 HeladoCarrot — Todos los derechos reservados</p>
+        <p class="footer-made">Hecho con 🧡 en Oxkutzcab, Yucatán</p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
